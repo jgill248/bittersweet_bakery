@@ -1,6 +1,10 @@
 .container-background-image {
-    background-image: url('https://scontent.cdninstagram.com/v/t51.2885-15/121972374_397613614575458_746194779789714648_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi40ODB4NDgwLnNkciJ9&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=q2nn3IfNmVQAX9RgGML&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjQyMjk4MDU3NDY0ODgxNTM0MQ%3D%3D.2-ccb7-5&oh=00_AfCkXaajvEvPLfIBvTT3G5Zp98IMBnG5g7xPkLcTLJtrZA&oe=65A5E263&_nc_sid=10d13b'); /* Replace with your image path */
+    background-image: url('../../images/baker/baking_cookies.jpg'); /* Replace with your image path */
     background-size: cover;  /* This ensures your image covers the entire div */
     background-repeat: no-repeat; /* This stops the image from repeating */
     background-position: center; /* This centers your image in the div */
+}
+
+#nav > ul > li > a {
+    color: #ed786a;
 }
