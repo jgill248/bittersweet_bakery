@@ -1,10 +1,25 @@
 .container-background-image {
-    background-image: url('../../images/baker/baking_cookies.jpg'); /* Replace with your image path */
-    background-size: cover;  /* This ensures your image covers the entire div */
-    background-repeat: no-repeat; /* This stops the image from repeating */
-    background-position: center; /* This centers your image in the div */
+  background-image: url("../../images/baked-goods/creme_brulee_cruffin.jpg"); /* Replace with your image path */
+  background-size: cover; /* This ensures your image covers the entire div */
+  background-repeat: no-repeat; /* This stops the image from repeating */
+  background-position: center; /* This centers your image in the div */
 }
 
-#nav > ul > li > a {
-    color: #ed786a;
+#nav > ul > li > a.outline-text {
+  color: whitesmoke;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
+
+#logo-text > h1 {
+  color: whitesmoke;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#logo-text > p {
+  color: whitesmoke;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
