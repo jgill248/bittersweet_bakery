@@ -65,22 +65,24 @@
             <!-- Content -->
             <div id="content" class="col-8 col-12-medium">
               <!-- Featured Item -->
-              <article class="box post">
-                <header>
-                  <h2>Featured Pastry</h2>
-                </header>
-                <a href="#" class="image featured"
-                  ><img
-                    src="images/baked-goods/creme_brulee_cruffin.jpg"
-                    alt="Featured Pastry"
-                /></a>
-                <h3>Raspberry Rose Tart</h3>
-                <p>
-                  A perfect blend of raspberries and rose cream encased in a
-                  delicate pastry crust, our Raspberry Rose Tart is a customer
-                  favorite.
-                </p>
-              </article>
+              <section id="featured-pastry">
+                <article class="box post">
+                  <header>
+                    <h2>Featured Pastry</h2>
+                  </header>
+                  <a href="#" class="image featured"
+                    ><img  id="pastry-image"
+                      src="images/baked-goods/creme_brulee_cruffin.jpg"
+                      alt="Featured Pastry"
+                  /></a>
+                  <h3 id="pastry-name">Raspberry Rose Tart</h3>
+                  <p id="pastry-description">
+                    A perfect blend of raspberries and rose cream encased in a
+                    delicate pastry crust, our Raspberry Rose Tart is a customer
+                    favorite.
+                  </p>
+                </article>
+              </section>
 
               <!-- About the Chef -->
               <article class="box post">
@@ -178,10 +180,10 @@
                   <div class="col-6 col-12-small">
                     <ul class="icons">
                       <li class="icon brands fa-instagram">
-                        <a href="#">@chefem_bittersweet</a>
+                        <a href="https://www.instagram.com/chefem_bittersweet">@chefem_bittersweet</a>
                       </li>
                       <li class="icon brands fa-facebook-f">
-                        <a href="#">fb.com/bittersweetbakehouse</a>
+                        <a href="https://www.facebook.com/p/Bittersweet-Bakehouse-100063451286355/">fb.com/bittersweetbakehouse</a>
                       </li>
                     </ul>
                   </div>
@@ -200,5 +202,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="FeaturedPastry.js"></script>
   </body>
 </html>
