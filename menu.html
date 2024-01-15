@@ -1,79 +1,78 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Menu - Bittersweet Bakehouse</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+  <body>
     <div id="page-wrapper">
+      <!-- Header -->
+      <section id="header">
+        <div class="container container-background-image">
+          <!-- Logo -->
+          <div id="logo-text">
+            <h1 id="logo"><a href="index.html">Bittersweet Bakehouse</a></h1>
+            <p>Delight in Every Bite - Handcrafted Pastries by Chef Emmalee</p>
+          </div>
 
-        <!-- Header -->
-        <section id="header">
-            <div class="container">
+          <!-- Nav -->
+          <nav id="nav">
+            <ul class="header-list">
+              <li>
+                <a class="outline-text" href="index.html"><span>Home</span></a>
+              </li>
+              <li>
+                <a class="outline-text" href="about.html"><span>About</span></a>
+              </li>
+              <li>
+                <a class="outline-text" href="menu.html"><span>Menu</span></a>
+              </li>
+              <li>
+                <a class="outline-text" href="gallery.html"
+                  ><span>Gallery</span></a
+                >
+              </li>
+              <li>
+                <a class="outline-text" href="contact.html"
+                  ><span>Contact</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
 
-                <!-- Logo -->
-                <h1 id="logo"><a href="index.html">Bittersweet Bakehouse</a></h1>
-                <nav id="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="current"><a href="menu.html">Menu</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+      <!-- Main Content -->
+      <section id="main">
+        <div class="container">
+          <header>
+            <h2>Our Menu</h2>
+          </header>
 
-            </div>
-        </section>
+          <!-- Menu Section -->
+          <section>
+            <h3>Signature Pastries</h3>
+            <ul class="menu-list" id="signature-menu-container"></ul>
 
-        <!-- Main Content -->
-        <section id="main">
-            <div class="container">
-                <header>
-                    <h2>Our Menu</h2>
-                </header>
+            <h3>Seasonal Specials</h3>
+            <ul class="menu-list" id="seasonal-menu-container"></ul>
+          </section>
+        </div>
+      </section>
 
-                <!-- Menu Section -->
-                <section>
-                    <h3>Signature Pastries</h3>
-                    <ul class="menu-list">
-                        <li>
-                            <h4>Raspberry Rose Tart</h4>
-                            <p>A delicate blend of raspberries and rose-flavored cream.</p>
-                        </li>
-                        <li>
-                            <h4>Chocolate Eclair</h4>
-                            <p>Classic eclair filled with rich chocolate cream.</p>
-                        </li>
-                        <!-- Add more menu items here -->
-                    </ul>
-                    
-                    <h3>Seasonal Specials</h3>
-                    <ul class="menu-list">
-                        <li>
-                            <h4>Pumpkin Spice Croissant</h4>
-                            <p>A flaky croissant with a pumpkin spice twist, perfect for fall.</p>
-                        </li>
-                        <!-- Add more menu items here -->
-                    </ul>
-
-                    <!-- More Categories as Needed -->
-
-                </section>
-
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <section id="footer">
-            <!-- Include your standard footer here -->
-        </section>
-
+      <!-- Footer -->
+      <section id="footer">
+        <!-- Include your standard footer here -->
+      </section>
     </div>
 
     <!-- Scripts -->
-    <!-- Include your standard scripts here -->
-</body>
+    <script src="menu.js"></script>
+  </body>
 </html>
